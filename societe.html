@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dream coffee shop</title>
+        <style> 
+            body{
+                background-image:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),
+                url(coffeeshop.jpg.html);
+                background-size: cover;
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            }
+            header{
+                border-bottom: 2px solid beige;
+                background-color: rgba(143, 69, 8, 0.781);
+                padding: 18px;
+                border-radius: 15px;
+                justify-content: space-between;
+                align-items: center;
+                gap: 20px;
+                display: flex;
+                flex-direction: column;
+            }
+            header h1{
+                text-align: center;
+                margin: 0;
+            }
+            nav{
+                display: flex;
+                float:left;
+                gap:25px;
+                flex-wrap: wrap;
+            }
+            nav a{
+                font-size: 18px;
+                color: beige;
+                text-decoration: none;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .main1 img{
+                display: flex;
+                width:200px; 
+                height:150px; 
+                border-radius: 10px;
+                object-fit: cover;
+            }
+            .main1{
+                background-color: burlywood;
+                border-radius: 30px;
+                width: 100%;
+                height: 180px;
+                display:flex;
+                padding: 15PX;
+                gap: 20px;
+                align-items: center;
+            }
+            .main1 p {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: larger;
+            }
+            .first_drink{
+                border: 2px solid rgb(141, 56, 16);
+                width: 18%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 5px;
+                display: inline-block;
+            }
+            .second_drink{
+                border: 2px solid rgb(122, 60, 19);
+                width: 18%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 5px;
+                display: inline-block;
+            }
+            .third_drink{
+                border: 2px solid rgb(148, 62, 12);
+                width: 18%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 5px;
+                display: inline-block;
+            }
+            .fourth_drink{
+                border: 2px solid rgb(148, 62, 12);
+                width: 18%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 5px;
+                display: inline-block;
+            }
+            .fifth_drink{
+                border: 2px solid rgb(148, 62, 12);
+                width: 18%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 5px;
+                display: inline-block;
+            }
+            button{
+                border-radius: 100%;
+                padding: 12px;               
+                background-color: rgb(155, 89, 14);
+                cursor: pointer;
+                transition: 0.3s;
+                
+            }
+            .logo{
+                display: flex;
+                justify-content: flex-start;
+            }
+            .logo img{
+                width: 130px;
+                height: auto;
+            }
+            #description{
+                text-align: right;
+
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="LOGO1.jpg" alt="logo" style="float: left; width: 100px; height: 70px; border:2px solid;border-radius: 100%; border-color: burlywood;  ">
+            </div> 
+            <h1 style="color: beige;">Dream Coffee</h1>   
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Info</a>
+                    <a href="#">contact</a>
+                </nav>
+        </header>
+        <main  >
+            <div>
+                <div class="main1">
+                <img src="coffee.jpg.jpeg" alt="coffee;">
+                    <p >Dream Coffee is a cozy place where you can enjoy your delicious Coffee, fresh pastries, 
+                    and relaxing moments with friends,Whether you're here to work, relax, or catch up with friends,
+                    your new favourite spot is waiting for you.
+                    stop by and grab a cup🍵!
+                    </p>
+                </div>
+                <article>
+                    <div class="first_drink">
+                      <img src="cappuccino.html.jpeg" alt="cappuccino" width="100%" height="220px"☕>
+                      <p> cappuccino☕: 25 DH</p>
+                    </div>
+               
+                    <div class="second_drink">
+                      <img src="Greentea.html.jpeg" alt="Green tea" width="100%" height="220px"🍵>
+                      <p> Green tea🍵: 17 DH</p>
+                    </div>
+             
+                    <div class="third_drink">
+                       <img src="iced coffee.html.jpeg" alt="iced coffee" width="100%" height="220PX">
+                       <p> iced coffee🥤: 30 DH</p>
+                    </div>
+           
+                    <div class="fourth_drink">
+                       <img src="strawberry smoothie.html.jpeg" alt="strawberry smoothie" width="100%" height="220px">
+                       <p> strawberry smoothie🍓: 30 DH</p>
+                    </div>
+
+                    <div class="fifth_drink">
+                       <img src="hot chocolate.html.jpeg" alt="🍫hot chocolate" width="100%" height="220px">
+                       <p> hot chocolate🍫: 28 DH</p>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <fotter>
+            <div style="clear: both;">
+           <p>Our shop is located in marrakech, we are open 24/7 for week, our service is rated us the one of the best service customer ever.</p> 
+           <button>contact us</button>        
+            </div>
+        </fotter>
+    </body>
+</html>
